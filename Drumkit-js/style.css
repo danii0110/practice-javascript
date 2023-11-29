@@ -43,7 +43,7 @@ body {
   color: white;
   font-size: 25px;
   font-weight: bold;
-  transition: all 0.7s ease;
+  transition: all 0.2s ease;
 }
 
 .item-explain {
@@ -52,7 +52,7 @@ body {
 }
 
 .playing {
-  transform: scale(1.2);
-  border: #f7f2ee;
-  box-shadow: 0 0 2rem #f7f2ee;
+  transform: scale(1.1);
+  border-color: #ff8ce6;
+  box-shadow: 0 0 1rem #ff8ce6;
 }

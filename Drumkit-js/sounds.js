@@ -14,6 +14,6 @@ function playSound(e) {
   audio.play();
 }
 
-const items = Array.from(document.querySelectorAll('.item'));
-items.forEach((item) => item.addEventListener('transitionend', removeTransition));
+const keys = Array.from(document.querySelectorAll('.item'));
+keys.forEach((key) => key.addEventListener('transitionend', removeTransition));
 window.addEventListener('keydown', playSound);
